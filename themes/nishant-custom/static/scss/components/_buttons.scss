@@ -1,0 +1,18 @@
+a{
+  .button{
+    display: inline-block;
+    padding: 13.5px 30px;
+    text-align: center;
+    border: 1.5px solid $body-text-dark;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px 10px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    .cta{
+      margin-left: 10px;
+      background: $body-background-dark;
+      color: #FFFFFF;
+    }
+  }
+}

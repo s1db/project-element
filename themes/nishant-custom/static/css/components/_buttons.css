@@ -1,0 +1,15 @@
+a .button {
+  display: inline-block;
+  padding: 13.5px 30px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 20px 10px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+a .button .cta {
+  margin-left: 10px;
+  color: #FFFFFF;
+}
