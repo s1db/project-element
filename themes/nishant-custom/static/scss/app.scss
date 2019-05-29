@@ -10,7 +10,7 @@
 
 
 body {
-    font-family: 'Work Sans', BlinkMacSystemFont, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-family: Europa;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -30,7 +30,8 @@ a {
         border-color: $body-text;
     }
     &.button{
-      display: inline-block;
+      display: inline;
+      font-family: Europa;
       padding: 13.5px 30px;
       text-align: center;
       border: 1.5px solid $body-text-dark;
@@ -69,33 +70,78 @@ blockquote {
 section {
     padding: 6.5vh 0;
     &.grey {
-        background: #F5F5F5;
+        background: #F7F7F7;
+        padding: 2%;
     }
     &#intro {
-        padding: 3.5vh 0;
+        padding: 6.5vh 0;
+        font-family: 'EB Garamond';
+
+        div.major {
+          display: block !important;
+        }
         h1 {
             margin-top: 0;
-            font-size: 1.5em;
+            font-size: 1.2em;
             &.hi{
-              font-size: 2.5em;
+              font-size: 1.8em;
               font-weight: 400;
               margin-bottom: 0;
               color: $body-background-dark;
             }
         }
         h2 {
-            font-size: 1.1em;
+            font-size: 1em;
             font-weight: 400;
             margin-top: 0.25em;
             &:last-of-type {
                 margin-bottom: 0;
             }
             &.more{
-              font-size: 1.5em;
+              font-size: 1.2em;
             }
+            &.grey {
+              margin: 0;
+              font-weight: 500;
+              color: #aaa;
+            }
+        }
+
+        a {
+          &.cta {
+            background: #555;
+            border: none !important;
+
+            &:hover {
+              background: #000;
+            }
+          }
+          &.button {
+            width: 7em;
+            margin: 20px 0;
+            display: inline-block;
+            border: 1.5px solid #aaa;
+
+            &.mar {
+              margin-left: 20px;
+
+              &:hover
+              {
+                border: 1.5px solid #777;
+              }
+            }
+          }
         }
     }
     &#portfolio {
         padding-top: 2.5vh;
     }
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    &.button {
+        margin-left: 0 !important;
+    }
+  }
 }

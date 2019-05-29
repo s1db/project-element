@@ -1,27 +1,73 @@
 [
     {
-        "title": "Design as Art",
-        "author": "Bruno Munari",
-        "img": "design-as-art.png",
-        "link": "https://www.amazon.com/Design-As-Art-Bruno-Munari/dp/0141035811/"
+        "title": "Art & Design",
+        "img": "http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png",
+        "link": ""
         
     },
     {
-        "title": "Hooked",
-        "author": "Nir Eyal",
-        "img": "hooked.png",
-        "link": "https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788/"
+        "title": "Law",
+        "img": "http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png",
+        "link": ""
     },
     {
-        "title": "Creative Confidence",
-        "author": "Tom Kelley & David Kelley",
-        "img": "creative-confidence.png",
-        "link": "https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X"
+        "title": "Mathematics",
+        "img": "http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png",
+        "link": ""
     },
     {
-        "title": "Outliers",
-        "author": "Malcom Gladwell",
-        "img": "outliers.png",
-        "link": "https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930"
+        "title": "Architecture",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Writing",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Photography",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Psychology",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Technology",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Culinary Arts",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Performing Arts",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Political Science",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Physics",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Entrepreneurship",
+        "img": "",
+        "link": ""
+    },
+    {
+        "title": "Medicine",
+        "img": "",
+        "link": ""
     }
 ]

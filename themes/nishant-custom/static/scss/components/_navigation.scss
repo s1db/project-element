@@ -53,7 +53,8 @@ nav {
             ul {
                 text-align: left;
                 li {
-                    padding: 0 5%;
+                    padding: 0;
+                    display: inline-flex;
                 }
             }
         }

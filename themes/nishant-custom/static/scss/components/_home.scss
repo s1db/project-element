@@ -8,7 +8,7 @@ main {
             border-bottom: none;
         }
         h1.home-section-heading {
-            font-size: 1.75em;
+            font-size: 2.75em;
             span.emoji {
                 padding-left: 0.35em;
             }
@@ -17,7 +17,7 @@ main {
             margin-bottom: 2em;
             .grid-item-preview {
                 &.travel-item-preview {
-                    height: 250px;
+                    height: 150px;
                     background: center center no-repeat;
                     background-size: cover;
                     filter: brightness(0.80);
@@ -31,8 +31,7 @@ main {
             }
             h2.grid-item-title {
                 font-size: 1.5em;
-                margin-top: 0.25em;
-                margin-bottom: 0;
+                padding: 0 0 0.5em 0 !important;
                 &.press-item-title {
                     font-size: 1.2em;
                 }
@@ -91,7 +90,7 @@ main {
             .grid-item {
                 h2.grid-item-title {
                     &.reading-list-item-title, &.press-item-title {
-                        font-size: 1.2em;
+                        font-size: 1.5em;
                     }
                 }
                 &.reading-list-item {
