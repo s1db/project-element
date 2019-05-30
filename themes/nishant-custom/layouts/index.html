@@ -17,26 +17,26 @@
                 </div>
             </div>
         </section>
-    
+
 
         <section id="reading" class="home-section grey">
             <div class="container">
                 <h1 class="home-section-heading">Fields</h1>
                 <div class="row">
-					{{ range .Site.Data.readingList | first 20 }}
-					<a href="{{ .link }}" class="home-page-item-link">
-						<div class="col-xs-12 col-md-3">
+					{{ range where .Pages "Section" "==" "fields" }}
+					<a href="{{.Permalink}}" class="home-page-item-link">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
 	                        <div class="grid-item reading-list-item">
 	                            <div class="grid-item-preview" style="background:#f1f2f6;">
-	                               <!-- <img class="grid-item-img" src="{{ .img }}" alt=""> -->
+
 	                               <img class="grid-item-img" src="https://uxdesign247.com/wp-content/uploads/2018/07/placeholder-image.png" alt="">
-	                                <h2 class="grid-item-title reading-list-item-title">{{ .title }}</h2>
+	                                <h2 class="grid-item-title reading-list-item-title">{{ .Title }}</h2>
 	                            </div>
 	                            <div class="row">
 	                                <div class="col-xs-12 col-md-12">
-	                                   
-	                                    
-	                                    <p class="grid-item-link"><a href="{{ .link }}"></a></p>
+
+
+	                                    <p class="grid-item-link"><a href="{{.Permalink}}"></a></p>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -50,7 +50,7 @@
   		<section id="schedule" class="">
             <div class="container">
                 <h1 class="home-section-heading">Schedule</h1>
-               	
+
             </div>
         </section>
 	</main>
