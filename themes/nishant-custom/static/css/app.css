@@ -607,17 +607,19 @@ main .home-section {
   main .home-section a.home-page-item-link {
     border-bottom: none; }
   main .home-section h1.home-section-heading {
-    font-size: 2.75em; }
+    font-size: 2.25em; }
     main .home-section h1.home-section-heading span.emoji {
       padding-left: 0.35em; }
   main .home-section .grid-item {
     margin-bottom: 2em; }
-    main .home-section .grid-item .grid-item-preview.travel-item-preview {
-      height: 150px;
-      background: center center no-repeat;
-      background-size: cover;
-      -webkit-filter: brightness(0.8);
-      filter: brightness(0.8); }
+    main .home-section .grid-item .grid-item-preview {
+      text-align: left; }
+      main .home-section .grid-item .grid-item-preview.travel-item-preview {
+        height: 150px;
+        background: center center no-repeat;
+        background-size: cover;
+        -webkit-filter: brightness(0.8);
+        filter: brightness(0.8); }
     main .home-section .grid-item:hover {
       -webkit-transform: none;
       -ms-transform: none;
@@ -627,11 +629,27 @@ main .home-section {
         box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.2); }
     main .home-section .grid-item h2.grid-item-title {
       font-size: 1.5em;
-      padding: 0 0 0.5em 0 !important; }
+      text-align: left;
+      padding: 0.2em 0 0.2em 15px !important; }
       main .home-section .grid-item h2.grid-item-title.press-item-title {
         font-size: 1.2em; }
       main .home-section .grid-item h2.grid-item-title.places-item-title .country {
         color: #878787; }
+    main .home-section .grid-item div.tag {
+      padding: 3% 0 3% 0;
+      margin-top: 5%;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #aaa;
+      border-top: 1px solid #e9ebee;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      letter-spacing: 0.5px;
+      text-align: center; }
+    main .home-section .grid-item p.grid-item-description {
+      font-size: 75%;
+      padding: 0 0 0.2em 15px !important; }
     main .home-section .grid-item p.grid-item-link {
       margin: 0.1em 0; }
     main .home-section .grid-item p.grid-item-date.press-item-date, main .home-section .grid-item p.grid-item-date.places-item-date {

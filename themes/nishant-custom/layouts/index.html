@@ -26,12 +26,16 @@
                 <div class="row">
 					{{ range where .Pages "Section" "==" "fields" }}
 					<a href="{{.Permalink}}" class="home-page-item-link">
-						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 	                        <div class="grid-item reading-list-item">
 	                            <div class="grid-item-preview" style="background:#fff;">
 
 	                               <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}" alt="">
 	                                <h2 class="grid-item-title reading-list-item-title">{{ .Title }}</h2>
+                                    <p class="grid-item-description">{{ .Description }}</p>
+                                    <div class="tag">
+                                        <span>Some Category</span>
+                                    </div>
 	                            </div>
 	                            <div class="row">
 	                                <div class="col-xs-12 col-md-12">

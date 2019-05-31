@@ -1,9 +1,10 @@
 ---
 title: "Biology"
+description: "Learning (dissecting) life"
+category: "Science"
 draft: false
 fieldImg: "biology/thumb.png"
 color: "#88dc88"
-intro: "An introduction to the study of life"
 ---
 
 This intro course involves understanding how present-day living organisms came to be and how they function. Biology can focus upon topics such as the entire planet and various populations or something as specific as single cells. It is the study of how living organisms can be used for the economic benefit of humans but simulteously shows how to protect and preserve this wealth. Biology as a field draws from other branches of science and applies those laws to living beings.
