@@ -15,7 +15,6 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2em;
-    line-height: 1.75;
     color: $body-text;
     margin: 0;
     padding: 0;
@@ -72,7 +71,7 @@ blockquote {
 section {
     padding: 6.5vh 0;
     &.grey {
-        background: #F7F7F7;
+        background: #F3F3F3;
         padding: 2%;
     }
     &#intro {
@@ -176,22 +175,24 @@ section {
     }
   }
 
-  section#intro h1 {
+  section#intro {
+    h1 {
     margin-top: 0;
     font-size: 1.2em;
-    &.hi{
-      font-size: 1.8em;
-      font-weight: 400;
-      margin-bottom: 0;
-      color: $body-background-dark;
-    }
+      &.hi{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-bottom: 0;
+        color: $body-background-dark;
+      }
 
-    &.project-title {
-      font-family: Europa, sans-serif;
-      font-weight: 800;
-      font-size: 1.7em !important;
-      margin-bottom: 0;
-      padding: 5% 0 0 0;
+      &.project-title {
+        font-family: Europa, sans-serif;
+        font-weight: 800;
+        font-size: 1.7em !important;
+        margin-bottom: 0;
+        padding: 5% 0 0 0;
+      }
     }
-  }
+}
 }

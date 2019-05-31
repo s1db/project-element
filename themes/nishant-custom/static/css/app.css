@@ -679,7 +679,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 1.2em;
-  line-height: 1.75;
   color: #333333;
   margin: 0;
   padding: 0; }
@@ -730,7 +729,7 @@ blockquote {
 section {
   padding: 6.5vh 0; }
   section.grey {
-    background: #F7F7F7;
+    background: #F3F3F3;
     padding: 2%; }
   section#intro {
     padding: 6.5vh 0;
