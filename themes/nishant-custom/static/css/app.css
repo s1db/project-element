@@ -580,10 +580,8 @@ nav {
         padding-left: 0; }
       nav .nav-links ul li.active a {
         font-weight: 800; }
-      nav .nav-links ul li a {
-        border-bottom: 4px solid #DDDDDD; }
-        nav .nav-links ul li a:hover {
-          border-color: #333333; }
+      nav .nav-links ul li a:hover {
+        border-color: #333333; }
 
 @media screen and (max-width: 768px) {
   nav .nav-name {
@@ -713,7 +711,7 @@ a {
   a.button {
     display: inline;
     font-family: Europa, sans-serif;
-    padding: 13.5px 30px;
+    padding: 13.5px 10px;
     text-align: center;
     border: 1.5px solid #F2F2F2;
     border-radius: 6px;
@@ -789,7 +787,8 @@ section {
       section#intro a.cta:hover {
         background: #000; }
     section#intro a.button {
-      width: 7em;
+      width: 6em;
+      font-size: 90%;
       margin: 20px 0;
       display: inline-block;
       border: 1.5px solid #aaa; }

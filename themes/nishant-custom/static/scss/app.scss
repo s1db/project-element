@@ -31,7 +31,7 @@ a {
     &.button{
       display: inline;
       font-family: Europa, sans-serif;
-      padding: 13.5px 30px;
+      padding: 13.5px 10px;
       text-align: center;
       border: 1.5px solid $body-text-dark;
       border-radius: 6px;
@@ -134,7 +134,8 @@ section {
             }
           }
           &.button {
-            width: 7em;
+            width: 6em;
+            font-size: 90%;
             margin: 20px 0;
             display: inline-block;
             border: 1.5px solid #aaa;
