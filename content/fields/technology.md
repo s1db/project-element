@@ -1,6 +1,6 @@
 ---
 title: "Technology"
 draft: false
-fieldImg: ""
-color: "green"
+fieldImg: "technology/thumb.png"
+color: "#88dc88"
 ---

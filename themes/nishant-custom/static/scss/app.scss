@@ -91,6 +91,21 @@ section {
               margin-bottom: 0;
               color: $body-background-dark;
             }
+
+            &.project-title {
+              font-family: Europa;
+              font-weight: 800;
+              font-size: 2.5em;
+              margin-bottom: 0;
+              padding: 5% 0 0 0;
+            }
+        }
+
+        p {
+          &.sts {
+            font-family: Europa;
+            margin: 0;
+          }
         }
         h2 {
             font-size: 1em;
@@ -137,6 +152,19 @@ section {
     }
     &#portfolio {
         padding-top: 2.5vh;
+    }
+
+    &.project-intro {
+      padding: 12vh 0 !important;
+      font-family: 'Europa';
+      color: #fff;
+      text-shadow: 0 1px 40px rgba(0, 0, 0, 0.45);
+
+        h1 {
+          &.project-title {
+            padding: 10% 0 0 0;
+          }
+        }
     }
 }
 

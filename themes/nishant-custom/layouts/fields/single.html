@@ -1,12 +1,11 @@
 {{ partial "header.html" . }}
 	<main>
-		<section id="intro" class="project-intro {{ .Params.color }}">
+		<section id="intro" class="project-intro {{ .Params.color }}" style="background: url('{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}') center center;">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-xs-12 col-md-6 col-lg-4">
 	                    <h1 class="project-title">{{ .Title }}</h1>
-	                    {{ range .Params.intro }}
-						{{ end }}
+	                    <p class="sts">{{ .Params.intro }}</p>
 	                </div>
 	            </div>
 	        </div>
