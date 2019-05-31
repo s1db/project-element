@@ -169,13 +169,22 @@ section {
     }
 }
 
-.menu-toggle {
+.logoz {
   visibility: hidden;
   width: 40px;
-  height: 30px;
+  height: 40px;
   position: absolute;
   top: 30px;
-  right: 40px;
+  left: 30px;
+  cursor: pointer;
+}
+.menu-toggle {
+  visibility: hidden;
+  width: 40px !important;
+  height: 40px !important;
+  position: absolute;
+  top: 30px;
+  right: 30px;
   cursor: pointer;
 }
 
@@ -278,12 +287,14 @@ section {
     }
 }
 }
-@media screen and (max-width: 912px) {
-  .menu-toggle {
-    margin: 0;
+@media screen and (max-width: 950px) {
+  .logoz{
     visibility: visible;
   }
-  .nav-links {
+  nav {
       visibility: hidden;
+  }
+  .menu-toggle {
+    visibility: visible;
   }
 }
