@@ -33,29 +33,24 @@ nav {
     }
 }
 
+
+
 @media screen and (max-width: 1025px) {
 
 }
 
 @media screen and (max-width: 992px) {
-
+  .nav-links {
+      visibility: hidden;
+      /*width: 100%;
+      text-align: center;
+      ul {
+          text-align: left;
+          li {
+              padding: 0;
+              display: inline-flex;
+          }
+      }*/
 }
 
-@media screen and (max-width: 768px) {
-    nav {
-        .nav-name {
-            display: none;
-        }
-        .nav-links {
-            width: 100%;
-            text-align: center;
-            ul {
-                text-align: left;
-                li {
-                    padding: 0;
-                    display: inline-flex;
-                }
-            }
-        }
-    }
 }
