@@ -51,6 +51,7 @@
  * Row wrapper class, flex box parent.
  */
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 .row {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -673,7 +674,7 @@ a .button {
     color: #FFFFFF; }
 
 body {
-  font-family: Europa;
+  font-family: Europa, sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -694,7 +695,7 @@ a {
     border-color: #333333; }
   a.button {
     display: inline;
-    font-family: Europa;
+    font-family: Europa, sans-serif;
     padding: 13.5px 30px;
     text-align: center;
     border: 1.5px solid #F2F2F2;
@@ -745,13 +746,13 @@ section {
         margin-bottom: 0;
         color: #1C1C1C; }
       section#intro h1.project-title {
-        font-family: Europa;
+        font-family: Europa, sans-serif;
         font-weight: 800;
         font-size: 2.5em;
         margin-bottom: 0;
         padding: 5% 0 0 0; }
     section#intro p.sts {
-      font-family: Europa;
+      font-family: Europa, sans-serif;
       margin: 0; }
     section#intro h2 {
       font-size: 1em;
@@ -783,7 +784,7 @@ section {
     padding-top: 2.5vh; }
   section.project-intro {
     padding: 12vh 0 !important;
-    font-family: 'Europa';
+    font-family: 'Europa', sans-serif;
     color: #fff;
     text-shadow: 0 1px 40px rgba(0, 0, 0, 0.45); }
     section.project-intro h1.project-title {
@@ -791,4 +792,18 @@ section {
 
 @media screen and (max-width: 768px) {
   a.button {
-    margin-left: 0 !important; } }
+    margin-left: 0 !important; }
+  section#intro h1 {
+    margin-top: 0;
+    font-size: 1.2em; }
+    section#intro h1.hi {
+      font-size: 1.8em;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: #1C1C1C; }
+    section#intro h1.project-title {
+      font-family: Europa, sans-serif;
+      font-weight: 800;
+      font-size: 1.7em !important;
+      margin-bottom: 0;
+      padding: 5% 0 0 0; } }
