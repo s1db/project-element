@@ -672,21 +672,6 @@ nav .nav-links ul li a:hover {
   border-color: #333333;
 }
 
-@media screen and (max-width: 992px) {
-  .nav-links {
-    opacity: 0;
-    /*width: 100%;
-      text-align: center;
-      ul {
-          text-align: left;
-          li {
-              padding: 0;
-              display: inline-flex;
-          }
-      }*/
-  }
-}
-
 main .hi {
   font-size: 5em;
 }
@@ -1111,7 +1096,13 @@ section.project-intro h1.project-title {
     visibility: visible;
   }
   nav {
-    visibility: hidden;
+    display: none !important;
+  }
+  .nav-links {
+    display: none !important;
+  }
+  #intro {
+    padding-top: 100px !important;
   }
   .menu-toggle {
     visibility: visible;
