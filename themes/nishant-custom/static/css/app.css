@@ -674,7 +674,7 @@ nav .nav-links ul li a:hover {
 
 @media screen and (max-width: 992px) {
   .nav-links {
-    visibility: hidden;
+    opacity: 0;
     /*width: 100%;
       text-align: center;
       ul {
@@ -993,7 +993,7 @@ section.project-intro h1.project-title {
   width: 40px;
   height: 30px;
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 40px;
   cursor: pointer;
 }
@@ -1098,6 +1098,10 @@ section.project-intro h1.project-title {
 
 @media screen and (max-width: 912px) {
   .menu-toggle {
+    margin: 0;
     visibility: visible;
+  }
+  .nav-links {
+    visibility: hidden;
   }
 }

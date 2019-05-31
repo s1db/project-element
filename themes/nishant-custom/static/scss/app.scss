@@ -174,7 +174,7 @@ section {
   width: 40px;
   height: 30px;
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 40px;
   cursor: pointer;
 }
@@ -280,6 +280,10 @@ section {
 }
 @media screen and (max-width: 912px) {
   .menu-toggle {
+    margin: 0;
     visibility: visible;
+  }
+  .nav-links {
+      visibility: hidden;
   }
 }

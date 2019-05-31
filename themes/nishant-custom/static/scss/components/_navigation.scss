@@ -41,7 +41,7 @@ nav {
 
 @media screen and (max-width: 992px) {
   .nav-links {
-      visibility: hidden;
+      opacity: 0;
       /*width: 100%;
       text-align: center;
       ul {
