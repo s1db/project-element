@@ -715,7 +715,7 @@ a {
 blockquote {
   background: #eaeaea;
   border-left: 5px solid #DDDDDD;
-  padding: 1.5em 1.5em 1.5em 3em;
+  padding: 0.5em;
   margin: 0; }
 
 .centered {
@@ -922,6 +922,8 @@ div.table-parent {
 @media screen and (max-width: 768px) {
   a.button {
     margin-left: 0 !important; }
+  p {
+    font-size: 0.8em !important; }
   section#intro h1 {
     margin-top: 0;
     font-size: 1.2em; }
@@ -935,9 +937,7 @@ div.table-parent {
       font-weight: 800;
       font-size: 1.5em !important;
       margin-bottom: 0;
-      padding: 5% 0 0 0; }
-  section#intro body {
-    font-size: 60%; } }
+      padding: 5% 0 0 0; } }
 
 @media screen and (max-width: 950px) {
   .logoz {

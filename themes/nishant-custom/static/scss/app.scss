@@ -53,7 +53,7 @@ a {
 blockquote {
     background: lighten($grey-accent, 5%);
     border-left: 5px solid $grey-accent;
-    padding: 1.5em 1.5em 1.5em 3em;
+    padding: 0.5em;
     margin: 0;
 }
 
@@ -311,6 +311,10 @@ div.table-parent {
     }
   }
 
+  p {
+    font-size: 0.8em !important;
+  }
+
   section#intro {
     h1 {
     margin-top: 0;
@@ -330,11 +334,7 @@ div.table-parent {
         padding: 5% 0 0 0;
       }
     }
-
-    body {
-      font-size: 60%;
-    }
-}
+  }
 }
 @media screen and (max-width: 950px) {
   .logoz{
