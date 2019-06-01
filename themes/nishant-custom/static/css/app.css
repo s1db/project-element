@@ -1068,6 +1068,35 @@ section.project-intro h1.project-title {
   position: absolute;
 }
 
+#schedule h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.schedule {
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #EEE;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 30px;
+}
+
+.schedule tbody {
+  border: 1px solid #EEE;
+}
+
+.schedule td {
+  margin: 0;
+  padding: 12.5px 15.5px;
+  border: 1px solid #EEE !important;
+}
+
+.schedule th {
+  border: 1px solid #EEE !important;
+  padding: 12.5px 15.5px;
+}
+
 @media screen and (max-width: 768px) {
   a.button {
     margin-left: 0 !important;
