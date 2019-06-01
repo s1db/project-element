@@ -15,7 +15,9 @@
 </head>
 <body>
 	<header>
-		<img class="logoz" src="{{.Site.BaseURL}}/img/icons/logo.svg" width="45px" alt="">
+		<a href="{{ .Site.BaseURL }}">
+			<img class="logoz" src="{{.Site.BaseURL}}/img/icons/logo.svg" width="45px" alt="">
+		</a>
 		<div class="menu-section">
 		 <div class="menu-toggle">
 			 <div class="one"></div>
@@ -28,7 +30,7 @@
                     <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
                 </li>
                 <li {{ if eq .Title "Work" }}class="active"{{end}}>
-                    <p class="nav-link"><a href="{{ .Site.BaseURL }}/img/pe/schedule.pdf">Schedule</a></p>
+                    <p class="nav-link"><a href="{{.Site.BaseURL}}/schedule">Schedule</a></p>
                 </li>
                 <li {{ if eq .Title "About" }}class="active"{{end}}>
                     <p class="nav-link"><a href="{{ .Site.BaseURL }}/">FAQs</a></p>
@@ -50,13 +52,13 @@
 	                </div>
 	                <div class="nav-links col-xs-12 col-md-9">
 	                    <ul>
-	                        <li {{ if eq .Title "Project Element" }}class="active"{{end}}>
+	                        <li>
 	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
 	                        </li>
-	                        <li {{ if eq .Title "Work" }}class="active"{{end}}>
-	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/img/pe/schedule.pdf">Schedule</a></p>
+	                        <li>
+	                            <p class="nav-link"><a href="{{.Site.BaseURL}}/schedule">Schedule</a></p>
 	                        </li>
-	                        <li {{ if eq .Title "About" }}class="active"{{end}}>
+	                        <li>
 	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/">FAQs</a></p>
 	                        </li>
 	                        <li {{ if eq .Title "Contact" }}class="active"{{end}}>
