@@ -654,7 +654,7 @@ main .home-section {
 
 @media screen and (max-width: 768px) {
   main .home-section .grid-item h2.grid-item-title.reading-list-item-title, main .home-section .grid-item h2.grid-item-title.press-item-title {
-    font-size: 1.5em; }
+    font-size: 1.2em; }
   main .home-section .grid-item.reading-list-item .reading-list-item-author {
     font-size: 0.9em; }
   main .home-section .grid-item p.grid-item-short-description.press-item-extract {
@@ -933,9 +933,11 @@ div.table-parent {
     section#intro h1.project-title {
       font-family: Europa, sans-serif;
       font-weight: 800;
-      font-size: 1.7em !important;
+      font-size: 1.5em !important;
       margin-bottom: 0;
-      padding: 5% 0 0 0; } }
+      padding: 5% 0 0 0; }
+  section#intro body {
+    font-size: 60%; } }
 
 @media screen and (max-width: 950px) {
   .logoz {

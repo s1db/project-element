@@ -325,10 +325,14 @@ div.table-parent {
       &.project-title {
         font-family: Europa, sans-serif;
         font-weight: 800;
-        font-size: 1.7em !important;
+        font-size: 1.5em !important;
         margin-bottom: 0;
         padding: 5% 0 0 0;
       }
+    }
+
+    body {
+      font-size: 60%;
     }
 }
 }

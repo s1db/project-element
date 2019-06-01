@@ -7,4 +7,6 @@ fieldImg: "physics/thumb.png"
 color: "#88dc88"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Physics is one of the purest forms of the sciences. The name itself comes from the Greek word 'phusis' meaning nature. It is the branch of science concerned with the nature and properties of matter and energy.
+
+From spinning electrons to spinning galaxies, from the micro to the macro, physics encompasses the study of all natural things
