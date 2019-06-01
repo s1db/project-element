@@ -1,18 +1,23 @@
 {{ partial "header.html" . }}
 	<main>
 		<section id="intro" class="project-intro">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-xs-12 col-md-6 col-lg-4">
-	                    <h1 class="project-title">{{ .Title }}</h1>
-	                    {{ range .Params.intro }}
-							<h2 class="project-description">
-		                    {{ . }}
-		                    </h2>
-						{{ end }}
-	                </div>
-	            </div>
-	        </div>
+					<div class="container">
+							<div class="row">
+									<div class="col-xs-12 col-md-8 col-lg-8 major">
+											<h1 class="hi">{{ .Title }}</h1>
+											<h2 class="more">
+													We're here to help you.
+											</h2>
+											{{ range .Params.intro }}
+											<h2 class="grey">
+													{{ . }}
+											</h2>
+											{{ end }}
+									</div>
+							</div>
+
+
+					</div>
 	    </section>
 		<article>
 			<section id="project-content" class="grey">
