@@ -571,7 +571,6 @@ nav {
   nav .nav-links ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     text-align: right; }
     nav .nav-links ul li {
       display: inline-block;
