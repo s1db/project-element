@@ -1,6 +1,6 @@
 ---
 title: "Mathematics"
-description: "Let's talk about X"
+description: "Let's talk about x"
 category: "Science"
 draft: false
 fieldImg: "math/thumb.png"
