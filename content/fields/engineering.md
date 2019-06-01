@@ -1,7 +1,7 @@
 ---
 title: "Engineering"
 description: "Lorem ipsum dolor sit amet"
-category: "raghav"
+category: "Science"
 draft: false
 fieldImg: "engineering/Engineering.png"
 color: "#88dc88"
