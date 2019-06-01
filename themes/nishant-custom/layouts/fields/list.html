@@ -1,46 +1,52 @@
 {{ partial "header.html" . }}
 	<main>
-		<section id="intro" class="project-intro {{ .Params.color }}" style="background: url('{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}') center center;">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-xs-12 col-md-6 col-lg-4">
-	                    <h1 class="project-title">{{ .Title }}</h1>
-	                    <p class="sts">{{ .Params.intro }}</p>
-	                </div>
-	            </div>
-	        </div>
-	    </section>
+
+    <section id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-lg-8 major">
+                        <h1 style="font-family: Europa; font-size: 2.25em;">Fields</h1>
+                        <p style="font-family: 'EB Garamond';">
+                            Below are 18 fields you might be interested in exploring via Project Element. Feel free to enrol in as many of them as you want, but tally their schedule to avoid clashes.
+                        </p>
+                        <a href="../img/pe/schedule.pdf" class="button cta">Schedule</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
 		<article>
-			<section id="project-content" class="grey">
-		        <div class="container">
-		            <div class="row">
-                  {{ range where .Pages "Section" "==" "fields" }}
-                  <a href="{{.Permalink}}" class="home-page-item-link">
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                  <div class="grid-item reading-list-item">
-                                      <div class="grid-item-preview" style="background:#fff;">
+			<section id="reading" class="home-section grey">
+            <div class="container">
+                <div class="row">
+          {{ range where .Pages "Section" "==" "fields" }}
+          <a href="{{.Permalink}}" class="home-page-item-link">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                          <div class="grid-item reading-list-item">
+                              <div class="grid-item-preview" style="background:#fff;">
 
-                                         <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}" alt="">
-                                          <h2 class="grid-item-title reading-list-item-title">{{ .Title }}</h2>
-                                            <p class="grid-item-description">{{ .Description }}</p>
-                                            <div class="tag">
-                                                <span>{{ .Params.Category }}</span>
-                                            </div>
-                                      </div>
-                                      <div class="row">
-                                          <div class="col-xs-12 col-md-12">
+                                 <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}" alt="">
+                                  <h2 class="grid-item-title reading-list-item-title">{{ .Title }}</h2>
+                                    <p class="grid-item-description">{{ .Description }}</p>
+                                    <div class="tag">
+                                        <span>{{ .Params.Category }}</span>
+                                    </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-xs-12 col-md-12">
 
 
-                                              <p class="grid-item-link"><a href="{{.Permalink}}"></a></p>
-                                          </div>
-                                      </div>
+                                      <p class="grid-item-link"><a href="{{.Permalink}}"></a></p>
                                   </div>
                               </div>
-                  </a>
-                  {{ end }}
-		            </div>
-		        </div>
-		    </section>
+                          </div>
+                      </div>
+          </a>
+          {{ end }}
+                </div>
+            </div>
+        </section>
 		</article>
 	</main>
 {{ partial "footer.html" . }}

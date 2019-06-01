@@ -1,9 +1,9 @@
 ---
-title: "Physics"
-description: "The science of why your cat won't fly"
-category: "Science"
+title: "Engineering"
+description: "Lorem ipsum dolor sit amet"
+category: "Humanities"
 draft: false
-fieldImg: "physics/thumb.png"
+fieldImg: "engineering/Engineering.png"
 color: "#88dc88"
 ---
 

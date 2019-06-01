@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-8 col-lg-8 major">
-                        <h1 class="hi">Figuring out what you want to become is confusing.</h1>
+                        <h1 class="hi">Figuring out what you want to become can be confusing.</h1>
                         <h2 class="more">
                             We're here to help you.
                         </h2>
@@ -16,56 +16,46 @@
                     </div>
                 </div>
 
-
             </div>
         </section>
-				<section id="video" style="background:#ebebeb;margin:0;padding:0;">
-					<div class="centered image-container large">
-							<div class="row">
-									<div class="img-col col-xs-12 col-md-12" style="position: relative;padding-bottom: 40%; /* 16:9 */ margin-top: 50px;padding-top: 25px;height: 0; text-align: center;">
-											<iframe src="https://player.vimeo.com/video/127688038?color=e0e0e0&amp;title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" style="position: absolute;top: 0;left: 10%;width: 80%;height: 80%;"></iframe>
-									</div>
-							</div>
-					</div>
-				</section>
 
         <section id="reading" class="home-section grey">
+        <div class="centered image-container large">
+                    <div class="row">
+                        <div class="img-col col-xs-12 col-md-12" style="position: relative;padding-bottom: 40%; /* 16:9 */ margin-top: 50px;padding-top: 25px;height: 0; text-align: center;">
+                            <iframe src="https://player.vimeo.com/video/127688038?color=e0e0e0&amp;title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" style="position: absolute;top: 0;left: 5%;width: 90%;height: 90%;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <section id="reading" class="home-section">
             <div class="container">
-                <h1 class="home-section-heading">Fields</h1>
                 <div class="row">
-					{{ range where .Pages "Section" "==" "fields" }}
-					<a href="{{.Permalink}}" class="home-page-item-link">
-						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-	                        <div class="grid-item reading-list-item">
-	                            <div class="grid-item-preview" style="background:#fff;">
+                    <div class="col-xs-12 col-md-8 col-lg-6 about">
+                        <h1 class="home-section-heading">About</h1>
+                        <p><i>“What do you want to be when you grow up?”</i></p>
+                        <p>As children, we all have simple ideas of what we want to do in life. Somewhere along the way, these dreams are compressed, twisted and processed into something very different. You are designed for a purpose. You show both a natural inclination towards it and a liking for it, and while doing it you maximize your capacity for brilliance.</p>
 
-	                               <img class="grid-item-img" src="{{ .Site.BaseURL }}/img/pe/{{ .Params.fieldimg }}" alt="">
-	                                <h2 class="grid-item-title reading-list-item-title">{{ .Title }}</h2>
-                                    <p class="grid-item-description">{{ .Description }}</p>
-                                    <div class="tag">
-                                        <span>{{ .Params.Category }}</span>
-                                    </div>
-	                            </div>
-	                            <div class="row">
-	                                <div class="col-xs-12 col-md-12">
+                        <p>Project Element is an attempt to help you find your calling, and thereby yourself. Through Project Element, we hope to show you why we love doing what we love doing and, in the process, help you discover the same. We will try placing in your hands the tools for you to be the very best you can be.</p>
+                    </div>
 
+                    <div class="col-xs-12 col-md-8 col-lg-6 about">
+                        <h1 class="home-section-heading">How it Works</h1>
+                        <p>Below, 18 fields of interest have been chosen. For each field, a comprehensive web portal will provide recommended viewing lists and reading material. We will also be organising Hangouts and QnA sessions to create an environment for deliberation and discussion. </p>
 
-	                                    <p class="grid-item-link"><a href="{{.Permalink}}"></a></p>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-					</a>
-					{{ end }}
+                        <p>In the first week of the summer holidays, we will be conducting physical workshops for each of these fields for students of classes 9, 10 and 11. These will be held in The Mother’s International School. (timings, duration, venues)</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-  		<section class="home-section" id="schedule" style="background:#ebebeb;">
+  		<section class="home-section grey" id="schedule">
             <div class="container">
                 <h1 class="home-section-heading" style="margin-top:0; padding-top:0.83em;">Schedule</h1>
 								<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-4 table-parent">
 										<h2>17th to 19th June</h2>
 										<table class="schedule" cellpadding="1">
 										<tbody>
@@ -75,8 +65,8 @@
 										</tr>
 										<tr>
 										<tr>
-										<td>Art and Design</td>
-										<td>AV Room</td>
+										<td>Art & Design</td>
+										<td>AV</td>
 										</tr>
 										<tr>
 										<td>Law</td>
@@ -97,7 +87,7 @@
 										</tbody>
 										</table>
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-4 table-parent">
 										<h2>20th to 22nd June</h2>
 										<table class="schedule" cellpadding="1">
 										<tbody>
@@ -129,7 +119,7 @@
 										</tbody>
 										</table>
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-4 table-parent">
 										<h2>24th to 26th June</h2>
 										<table class="schedule" cellpadding="1">
 										<tbody>
@@ -166,7 +156,7 @@
 									<div class="col-md-3">
 
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-6 table-parent">
 										<h2>Session</h2>
 										<table class="schedule" cellpadding="1">
 										<tbody>

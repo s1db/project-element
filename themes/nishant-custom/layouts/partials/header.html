@@ -8,6 +8,7 @@
 	<meta name="description" content="Project Element is an initiative by the students of the MIS Batch of 2019.">
 	<meta name="author" content="Anish Bajaj">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://use.typekit.net/rhk1yek.css">
 	<link rel="icon" type="image/svg" href="{{.Site.BaseURL}}/img/icons/logo.png">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/app.css">
 	{{ .Hugo.Generator }}
@@ -23,10 +24,18 @@
 		 </div>
 		 <div class="naval">
 			 <ul role="navigation" class="hidden">
-				 <li><a href="#">Item-1</a></li>
-				 <li><a href="#">Item-2</a></li>
-				 <li><a href="#">Item-3</a></li>
-				 <li><a href="#">Item-4</a></li>
+				 <li {{ if eq .Title "Project Element" }}class="active"{{end}}>
+                    <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
+                </li>
+                <li {{ if eq .Title "Work" }}class="active"{{end}}>
+                    <p class="nav-link"><a href="{{ .Site.BaseURL }}/img/pe/schedule.pdf">Schedule</a></p>
+                </li>
+                <li {{ if eq .Title "About" }}class="active"{{end}}>
+                    <p class="nav-link"><a href="{{ .Site.BaseURL }}about/">FAQs</a></p>
+                </li>
+                <li {{ if eq .Title "Contact" }}class="active"{{end}}>
+                    <p class="nav-link"><a href="{{ .Site.BaseURL }}contact/">Contact</a></p>
+                </li>
 			 </ul>
 		 </div>
 		</div>
@@ -39,10 +48,10 @@
 							<p class="nav-name-home"><img src="{{.Site.BaseURL}}/img/icons/logo.svg" width="45px" alt=""></p>
 	                    </a>
 	                </div>
-	                <div class="nav-links col-xs-12 col-md-6">
+	                <div class="nav-links col-xs-12 col-md-9">
 	                    <ul>
 	                        <li {{ if eq .Title "Project Element" }}class="active"{{end}}>
-	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}">Fields</a></p>
+	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
 	                        </li>
 	                        <li {{ if eq .Title "Work" }}class="active"{{end}}>
 	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/img/pe/schedule.pdf">Schedule</a></p>
