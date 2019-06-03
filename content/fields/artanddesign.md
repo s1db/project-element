@@ -1,6 +1,6 @@
 ---
 title: "Arts & Design"
-description: "Making pretty stuff"
+description: "The world is your canvas"
 category: "Arts"
 draft: false
 fieldImg: "artanddesign/thumb.png"
