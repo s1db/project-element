@@ -139,7 +139,6 @@ section {
             }
           }
           &.button {
-            width: 6em;
             font-size: 90%;
             margin: 20px 0;
             display: inline-block;
@@ -352,7 +351,7 @@ div.table-parent {
 
     a {
       &.button {
-        width: auto;
+        width: auto!important;
         font-size: 0.8em;
       }
     }
