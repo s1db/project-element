@@ -26,16 +26,16 @@
 		 </div>
 		 <div class="naval">
 			 <ul role="navigation" class="hidden">
-				 <li {{ if eq .Title "Project Element" }}class="active"{{end}}>
+								 <li>
+										 <p class="nav-link"><a href="{{.Site.BaseURL}}">Home</a></p>
+								 </li>
+				 				<li>
                     <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
                 </li>
-                <li {{ if eq .Title "Work" }}class="active"{{end}}>
+                <li>
                     <p class="nav-link"><a href="{{.Site.BaseURL}}/schedule">Schedule</a></p>
                 </li>
-                <li {{ if eq .Title "About" }}class="active"{{end}}>
-                    <p class="nav-link"><a href="{{ .Site.BaseURL }}/">FAQs</a></p>
-                </li>
-                <li {{ if eq .Title "Contact" }}class="active"{{end}}>
+                <li>
                     <p class="nav-link"><a href="{{ .Site.BaseURL }}/">Contact</a></p>
                 </li>
 			 </ul>
@@ -52,14 +52,14 @@
 	                </div>
 	                <div class="nav-links col-xs-12 col-md-9">
 	                    <ul>
+												<li>
+														<p class="nav-link"><a href="{{.Site.BaseURL}}">Home</a></p>
+												</li>
 	                        <li>
 	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/fields">Fields</a></p>
 	                        </li>
 	                        <li>
 	                            <p class="nav-link"><a href="{{.Site.BaseURL}}/schedule">Schedule</a></p>
-	                        </li>
-	                        <li>
-	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/">FAQs</a></p>
 	                        </li>
 	                        <li {{ if eq .Title "Contact" }}class="active"{{end}}>
 	                            <p class="nav-link"><a href="{{ .Site.BaseURL }}/">Contact</a></p>
