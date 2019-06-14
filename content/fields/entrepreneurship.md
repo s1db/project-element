@@ -1,6 +1,6 @@
 ---
 title: "Entrepreneurship"
-description: "Making money moves"
+description: "Let's Make something today."
 category: "Humanities"
 draft: false
 fieldImg: "entrepreneurship/thumb.png"
